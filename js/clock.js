@@ -31,6 +31,3 @@ function myTimeAndDate(){
 }, 1000); 
 
 
-new kursor({
-    type: 1
-})

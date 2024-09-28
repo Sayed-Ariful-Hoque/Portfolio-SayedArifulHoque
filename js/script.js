@@ -121,7 +121,7 @@ window.onscroll =() =>{
     const scrollBottom = document.querySelectorAll(".scroll-bottom")
     scrollBottom.forEach((el) =>observer.observe(el))
 
-    constscrollTop = document.querySelectorAll(".scroll-top")
+    const scrollTop = document.querySelectorAll(".scroll-top")
    scrollTop.forEach((el) =>observer.observe(el))
 
 // Porallax icon navbar start==================================================

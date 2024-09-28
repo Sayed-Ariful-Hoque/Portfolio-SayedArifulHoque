@@ -1323,8 +1323,9 @@ footer a {
     }
       /* dijital watch start */
       .watch {
-        top: -710px;
-        left: 40%;
+        /* top: -710px;
+        left: 40%; */
+        display: none;
     }
     /* digital watch end  */
 }
@@ -1389,6 +1390,8 @@ footer a {
       .watch {
         top: -710px;
         left: 40%;
+        display: none;
+
     }
     /* digital watch end  */
 }
@@ -1409,6 +1412,7 @@ footer a {
     .watch {
         top: -710px;
         left: 40%;
+        display: none;
     }
     /* digital watch end  */
 

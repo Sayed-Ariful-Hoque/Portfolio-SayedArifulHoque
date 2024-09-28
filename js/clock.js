@@ -19,9 +19,9 @@ function myTimeAndDate(){
     // var currentValue2 = min + ":"
     // var currentValue3 = sec + ":"
     
-    document.getElementById("houre").innerHTML  = hr 
+    document.getElementById("houre").innerHTML  = hr
     document.getElementById("minet").innerHTML = min 
-    document.getElementById("second").innerHTML =  sec
+    document.getElementById("second").innerHTML =  sec 
     document.getElementById("AmPm").innerHTML = AmPm
     
 }

@@ -125,3 +125,8 @@ window.onscroll =() =>{
    scrollTop.forEach((el) =>observer.observe(el))
 
 // Porallax icon navbar start==================================================
+
+
+
+
+

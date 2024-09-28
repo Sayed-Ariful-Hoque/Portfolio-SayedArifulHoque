@@ -1099,6 +1099,32 @@ footer a {
     display: none;
 }
 
+/* digital clock start ======================================================================================= */
+.watch {
+    position: absolute;
+    top: 15%;
+    left: 91%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.timecolor {
+    color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+/* digital clock end ======================================================================================= */
+
+
 
 
 
@@ -1113,18 +1139,28 @@ footer a {
     .liquid-shape {
         margin: 0 auto;
     }
-    .img-box{
+
+    .img-box {
         margin: 0 auto;
     }
 
     .img-box img {
         max-width: 300px;
     }
+
     .liquid-shape {
-      max-width: 1000px;
+        max-width: 1000px;
     }
+      /* dijital watch start */
+      .watch {
+        position: absolute;
+        top: -710px;
+        left: 40%;
+    }
+    /* digital watch end  */
 
 }
+
 @media (max-width:991px) {
 
     header,
@@ -1159,6 +1195,13 @@ footer a {
     .social-icons {
         margin-top: 2rem;
     }
+      /* dijital watch start */
+      .watch {
+        position: absolute;
+        top: -710px;
+        left: 40%;
+    }
+    /* digital watch end  */
 }
 
 @media (max-width:768px) {
@@ -1230,6 +1273,13 @@ footer a {
     footer p {
         font-size: .8rem;
     }
+      /* dijital watch start */
+      .watch {
+        position: absolute;
+        top: -610px;
+        left: 40%;
+    }
+    /* digital watch end  */
 }
 
 @media (max-width:420px) {
@@ -1272,6 +1322,13 @@ footer a {
     .mongodb0 {
         display: block;
     }
+      /* dijital watch start */
+      .watch {
+        position: absolute;
+        top: -710px;
+        left: 40%;
+    }
+    /* digital watch end  */
 }
 
 @media (max-width:414px) {
@@ -1299,7 +1356,8 @@ footer a {
     .liquid-shape {
         margin: 0 auto;
     }
-    .img-box{
+
+    .img-box {
         margin: 0 auto;
     }
 
@@ -1329,6 +1387,13 @@ footer a {
         color: var(--font-neon-text-shadow);
         border-radius: 8px;
     }
+      /* dijital watch start */
+      .watch {
+        position: absolute;
+        top: -710px;
+        left: 40%;
+    }
+    /* digital watch end  */
 }
 
 
@@ -1336,10 +1401,19 @@ footer a {
 
     .img-box img {
         max-width: 300px;
-      
+
     }
 
     .info-box {
         max-width: 300px;
     }
+
+    /* dijital watch start */
+    .watch {
+        position: absolute;
+        top: -710px;
+        left: 40%;
+    }
+    /* digital watch end  */
+
 }
